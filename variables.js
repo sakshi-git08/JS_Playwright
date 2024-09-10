@@ -4,14 +4,14 @@
 //functionally / locally + global scope
 
 var x = 10; // global scope
-function test(){
+function test() {
     var y = 20; //local scope
 }
 
 console.log(x);
 
 var pop = "hi js";
-function rel(){
+function rel() {
     var top = "hello js";
     console.log(top); //local variable can't be accessed as variable directly outside the method
 }
@@ -36,7 +36,7 @@ console.log(g); //Sakshi
 //issue with var : it changes the value and we won't be able to use previous value i.e. we don't use var in modern js.
 var flag = "Hey Sakshi!!";
 var t1 = 4;
-if(t1 > 3){
+if (t1 > 3) {
     var flag = "hey tom";
 }
 console.log(flag); //hey tom 
@@ -47,7 +47,7 @@ console.log(flag); //hey tom
 //{}
 let m = "Hey Sakshi";
 let time = 4;
-if(time > 3){
+if (time > 3) {
     let msg = "How you doin'?"
     console.log(msg);//How you doin'?
 }
