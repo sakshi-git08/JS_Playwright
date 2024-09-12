@@ -83,5 +83,5 @@ for (const ele in br) {
 console.log("---------------");
 
 for (const el in br) {
-    console.log(br[el]); // It will print chrome firefox edge safari
+    console.log(el + " : " + br[el]); // It will print chrome firefox edge safari
 }
