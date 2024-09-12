@@ -1,19 +1,19 @@
 //1. var : old way
-//ES6 
+//ES6
 //scope : var
 //functionally / locally + global scope
 
 var x = 10; // global scope
 function test() {
-    var y = 20; //local scope
+  var y = 20; //local scope
 }
 
 console.log(x);
 
 var pop = "hi js";
 function rel() {
-    var top = "hello js";
-    console.log(top); //local variable can't be accessed as variable directly outside the method
+  var top = "hello js";
+  console.log(top); //local variable can't be accessed as variable directly outside the method
 }
 rel();
 /*trying to access top variable present in function rel without using function reference
@@ -37,10 +37,9 @@ console.log(g); //Sakshi
 var flag = "Hey Sakshi!!";
 var t1 = 4;
 if (t1 > 3) {
-    var flag = "hey tom";
+  var flag = "hey tom";
 }
-console.log(flag); //hey tom 
-
+console.log(flag); //hey tom
 
 //let:
 //scope: block scoped
@@ -48,8 +47,8 @@ console.log(flag); //hey tom
 let m = "Hey Sakshi";
 let time = 4;
 if (time > 3) {
-    let msg = "How you doin'?"
-    console.log(msg);//How you doin'?
+  let msg = "How you doin'?";
+  console.log(msg); //How you doin'?
 }
 // console.log(msg); msg is not defined -> trying to access outside the scope
 console.log(m); //Hey Sakshi
@@ -69,4 +68,4 @@ const mg = "Hi Sakshi";
 //mg = "Hello Anju"; TypeError: Assignment to constant variable.
 console.log(mg);
 
-//const s; error 
+//const s; error
